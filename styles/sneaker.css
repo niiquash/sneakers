@@ -94,7 +94,7 @@ body {
 .sneaker-specs-container {
   background-color: rgba(128, 128, 128, 0.103);
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 16px 16px;
 
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@ body {
 }
 
 .sneaker-price {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
 }
 
