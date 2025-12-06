@@ -22,8 +22,16 @@ body {
   width: 500px;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
+}
+
+@media (min-width: 1000px) {
+  .sneaker-info-container {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .sneaker-image-container {
@@ -95,6 +103,7 @@ body {
   background-color: rgba(128, 128, 128, 0.103);
   border-radius: 8px;
   padding: 16px 16px;
+  margin-top: 40px;
 
   display: flex;
   align-items: center;
